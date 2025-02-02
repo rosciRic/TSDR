@@ -14,17 +14,17 @@ This repository contains MATLAB code for a traffic sign and shape recognition sy
 
 ## Repository Structure
 
-.
 ├── main_pipeline.m           % Inference pipeline: processes a test image and performs classification using pre-trained models.
 ├── Shape_Classifier_SVM/     % Folder for SVM training pipeline.
 │   └── main_train.m          % Main script for training the SVM classifier.
 ├── RF_Model/                 % Folder for Random Forest training pipeline.
 │   └── main_train.m          % Main script for training the Random Forest classifier.
 ├── TestImages/               % Folder for test images (e.g., test1.png).
-├── data/
-│   ├── raw/                  % Raw data: CSV files (Train.csv, Test.csv, Meta.csv) and meta images.
-│   └── processed/            % Processed data and results.
-└── README.md                 % This file.
+├── data/                    
+│   ├── raw/                 % Raw data: CSV files (Train.csv, Test.csv, Meta.csv) and meta images.
+│   └── processed/           % Processed data and results.
+└── README.md                % This file.
+
 
 
 
