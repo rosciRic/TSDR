@@ -13,7 +13,7 @@ This repository contains MATLAB code for a traffic sign and shape recognition sy
    Located in the `Shape_Classifier_SVM/` folder, this pipeline processes a large dataset of images by performing preprocessing, feature extraction, and splitting into training/test sets. It uses grid search with k-fold cross-validation to tune SVM hyperparameters, trains the SVM model, evaluates its performance, and saves the trained model (`modelloSVM.mat`). The main training script is `main_train.m`.
 
 ## Repository Structure
-
+```
 ├── main_pipeline.m           % Inference pipeline: processes a test image and performs classification using pre-trained models.
 ├── Shape_Classifier_SVM/     % Folder for SVM training pipeline.
 │   └── main_train.m          % Main script for training the SVM classifier.
@@ -24,7 +24,7 @@ This repository contains MATLAB code for a traffic sign and shape recognition sy
 │   ├── raw/                 % Raw data: CSV files (Train.csv, Test.csv, Meta.csv) and meta images.
 │   └── processed/           % Processed data and results.
 └── README.md                % This file.
-
+```
 
 
 
