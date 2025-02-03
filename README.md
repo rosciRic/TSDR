@@ -1,5 +1,8 @@
 # Traffic Sign Detection and Recognition with MATLAB
 
+## Report
+See TSDR_En.pdf for a complete overview of the project.
+
 ## Overview
 This repository contains MATLAB code for a traffic sign and shape recognition system. The project is organized into three main pipelines:
 
