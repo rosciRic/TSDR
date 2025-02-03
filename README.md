@@ -90,7 +90,7 @@ This repository contains MATLAB code for a traffic sign and shape recognition sy
 ## Data Disclaimer
 - **Test Images:** Not included. Please provide your own images in the `TestImages/` folder.
 - **Pre-trained Models:** Not included. If you do not have pre-trained models, train them using the respective training pipelines.
-- **Dataset Files:** CSV files and meta images must be provided and placed in `data/raw/`.
+- **Dataset Files**: The dataset used is the GTSRB (German Traffic Sign Recognition Benchmark). Download the dataset from Kaggle, extract it, and copy the necessary CSV files and meta images into the data/raw/ folder.
 
 ---
 
